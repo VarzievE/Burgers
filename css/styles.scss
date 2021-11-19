@@ -130,6 +130,12 @@ html {
 			font-size: 22px;
 		}
 	}
+	&__button {
+		@include button;
+		margin-top: 20px;
+		display: inline-block;
+		color: #ffffff !important;
+	}
 }
 
 /* Шапка  */
