@@ -142,7 +142,7 @@ html {
 .header {
 	background: url(../img/burger.jpg) no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: 50%;
 	&__container {
 	}
 	&__hamburger {
@@ -220,7 +220,7 @@ html {
 		@media (max-width: 500px) {
 			padding-block: 50px;
 		}
-		@media (max-width: 410px) {
+		@media (max-width: 425px) {
 			padding-block: 20px;
 		}
 	}

@@ -249,7 +249,7 @@ html body {
 .header {
   background: url(../img/burger.jpg) no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 50%;
 }
 
 .header__hamburger {
@@ -395,7 +395,7 @@ html body {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   .header__title {
     padding-block: 20px;
   }
